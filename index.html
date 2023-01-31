@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <title>Imóveis Imob</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Imóveis Imob</h1>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#sobrenos">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#container-em-destaque">Em destaque</a>
+                    </li>
+                    <li>
+                        <a href="#container-contato">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="carousel-images">
+        <img src="./images/house01.jpg" alt="Imagem de casas">
+        <img src="./images/house02.jpg" alt="Imagem de uma casa">
+        <img src="./images/house03.jpg" alt="Imagem de uma casa">
+    </div>
+    <section id="sobrenos">
+        <div class="container">
+            <img src="./images/fachada.jpg" alt="Fachada da Imobiliária">
+            <div>
+                <h2>Sobre nós</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Repellendus veritatis
+                    maxime asperiores. A ducimus necessitatibus,
+                    veniam aliquam exercitationem corrupti sed. 
+                    Voluptas adipisci deserunt voluptates quas quae eos 
+                    aliquid quis assumenda.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Repellendus veritatis
+                    maxime asperiores. A ducimus necessitatibus,
+                    veniam aliquam exercitationem corrupti sed. 
+                    Voluptas adipisci deserunt voluptates quas quae eos 
+                    aliquid quis assumenda.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="container-em-destaque">
+        <div class="container-em-destaque">
+            <h2>Em destaque</h2>
+            <ul class="container-flex">
+                <li class="item-esquerda">
+                    <img src="./images/destaque01.jpg" alt="Imagem de mansão">
+                    <h3>Casa</h3>
+                    <p><b>Alter Alto de Pinheiros</b></p>
+                    <p>Avenida São Gualter, 108</p>
+                    <p>Alto de Pinheiros, São Paulo</p>
+                    <strong>R$ 4.500.000,00</strong>
+                    <p><button type="button">Contato</button></p>
+                </li>
+                <li class="item-central">
+                    <img src="./images/destaque02.jpg" alt="Imagem de mansão">
+                    <h3>Apartamento</h3>
+                    <p><b>Universo Tatuapé Órbita</b></p>
+                    <p>Avenida Celso Garcia, 5000</p>
+                    <p>Tatuapé, São Paulo</p>
+                    <strong>R$ 2.750,00/Mês</strong>
+                    <p><button type="button">Contato</button></p>
+                </li>
+                <li class="item-direita">
+                    <img src="./images/destaque03.jpg" alt="Imagem de mansão">
+                    <h3>Sobrado</h3>
+                    <p><b>Mod Paulista</b></p>
+                    <p>Rua Maestro Cardim, 1153</p>
+                    <p>Bela Vista, São Paulo</p>
+                    <strong>R$ 950.000,00</strong>
+                    <p><button type="button">Contato</button></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="container-contato">
+        <div class="container-contato">
+            <h2>Contato</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="Telefone">Telefone:</label>
+                    <input type="tel" id="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-campo">
+                    <label for="interesse">Interesse em:</label>
+                    <input type="text" id="interesse">
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                2023 &copy; Imóveis Imob - Todos os direitos reservados
+            </p>
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="./images/insta.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/link.png" alt="LinkedIn">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/face.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./images/github.png" alt="GitHub">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#carousel-images").slick({
+                autoplay: true
+            })
+            $('.menu-hamburguer').click(function() {
+                $('nav').slideToggle()
+            })
+        })
+    </script>
+    <script src="./main.js"></script>
+</body>
+</html>
